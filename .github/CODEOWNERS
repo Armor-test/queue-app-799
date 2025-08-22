@@ -1,0 +1,37 @@
+# CODEOWNERS file for queue-app-799
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/squad-search @Armor-test/squad-mobile
+
+# Directory ownership
+/pkg/ @Armor-test/squad-reporting @Armor-test/grp-search @Armor-test/team-logging
+/tools/ @Armor-test/dept-reporting @Armor-test/dept-ui
+/modules/ @Armor-test/dept-reliability @Armor-test/grp-reporting
+/src/ @Armor-test/squad-ml @Armor-test/dept-identity
+/vendor/ @Armor-test/dept-reporting @Armor-test/squad-cloud
+/test/ @Armor-test/unit-governance @Armor-test/squad-api @Armor-test/squad-research
+/utils/ @Armor-test/squad-api @Armor-test/grp-ui
+/styles/ @Armor-test/team-core @Armor-test/dept-notifications
+/lib/ @Armor-test/squad-database @Armor-test/dept-test
+/dist/ @Armor-test/team-governance @Armor-test/squad-tooling
+/hooks/ @Armor-test/dept-release @Armor-test/unit-devops @Armor-test/team-notifications
+/internal/ @Armor-test/grp-api @Armor-test/team-research
+/security/ @Armor-test/dept-billing @Armor-test/squad-mobile
+/shared/ @Armor-test/squad-ml @Armor-test/dept-reporting
+
+# File type ownership
+*.config @Armor-test/dept-billing @Armor-test/squad-product @Armor-test/grp-api
+*.md @Armor-test/team-research @Armor-test/grp-payments
+*.proto @Armor-test/squad-search @Armor-test/dept-release @Armor-test/dept-logging
+*.graphql @Armor-test/dept-ui @Armor-test/dept-test @Armor-test/squad-frontend
+*.py @Armor-test/squad-ml @Armor-test/unit-governance
+*.ini @Armor-test/squad-cache @Armor-test/squad-reporting @Armor-test/team-governance
+*.swift @Armor-test/dept-api @Armor-test/unit-test
+*.gradle @Armor-test/squad-mobile @Armor-test/squad-product
+*.properties @Armor-test/dept-reliability @Armor-test/grp-search @Armor-test/squad-apps
+*.cs @Armor-test/team-reporting @Armor-test/dept-notifications @Armor-test/dept-api
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
